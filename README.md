@@ -1,0 +1,1 @@
+# SQR-Secure-QR-Resolver
