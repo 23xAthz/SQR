@@ -1,0 +1,46 @@
+name: sqrprojectatlabendsem
+description: SQR - Secure QR Resolver. Privacy-aware QR phishing analysis.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # QR Scanning
+  mobile_scanner: ^5.2.3
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+
+  # Database
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+
+  # Networking
+  http: ^1.2.1
+
+  # WebView
+  webview_flutter: ^4.8.0
+
+  # Hashing
+  crypto: ^3.0.3
+
+  # URL Launching
+  url_launcher: ^6.3.0
+
+  # Preferences
+  shared_preferences: ^2.3.3
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
